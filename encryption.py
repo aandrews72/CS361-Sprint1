@@ -86,3 +86,4 @@ while True:
         print("Private Key:\n" + priv_key_string)
     if "4" in number_flags:
         print(f"Encrypted String: {encrypted_string}")
+        

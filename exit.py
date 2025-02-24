@@ -2,7 +2,6 @@ import subprocess
 import os
 import signal
 
-
 def main():
     print("Are you sure you want to exit? Doing so will permanently delete all the keys you have stored in this session!\n\n")
     
@@ -24,6 +23,5 @@ def main():
             subprocess.run(["python3", "help.py"])
         else:
             print("Invalid command, enter one of the following: yes no exit hash encrypt key help")
-
 
 main()

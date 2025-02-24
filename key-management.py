@@ -1,4 +1,6 @@
 import subprocess
+import os
+import signal
 
 
 print("\n\nTo get help and get more information, enter \"help\" without the quotations into the command prompt.\n\n\n")
@@ -59,3 +61,5 @@ while True:
                 print("Invalid key ID.\n")
     else:
         print("Invalid input. Try again.\n")
+
+ 

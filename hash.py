@@ -1,5 +1,7 @@
 import hashlib
 import subprocess
+import os
+import signal
 
 # Seperate print statements to make it more readable
 print("\n\nTo get help and get more information, enter 'help' without the quotations into the command prompt.\n\n")
